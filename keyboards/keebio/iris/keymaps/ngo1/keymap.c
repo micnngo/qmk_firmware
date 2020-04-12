@@ -31,13 +31,13 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [_LOWER] = LAYOUT(
   //┌────────┬────────┬────────┬────────┬────────┬────────┐                          ┌────────┬────────┬────────┬────────┬────────┬────────┐
-     RGB_TOG,   KC_GRV, KC_TILD, KC_BSLS, KC_PIPE, _______,                            KC_PSLS,    KC_7,    KC_8,    KC_9,_______, _______,
+     RGB_TOG,   KC_GRV, KC_TILD, KC_BSLS, KC_PIPE, _______,                            KC_PSLS,    KC_7,    KC_8,    KC_9,_______, BL_TOGG,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
-     RGB_HUD,  KC_LBRC, KC_RBRC, KC_LCBR, KC_RCBR,  KC_INS,                            KC_PAST,     KC_4,   KC_5,    KC_6, KC_PPLS, _______,
+     RGB_HUD,  KC_LBRC, KC_RBRC, KC_LCBR, KC_RCBR,  KC_INS,                            KC_PAST,     KC_4,   KC_5,    KC_6, KC_PPLS,BL_STEP,
   //├────────┼────────┼────────┼────────┼────────┼────────┤                          ├────────┼────────┼────────┼────────┼────────┼────────┤
      RGB_VAI,  _______, KC_LEFT, KC_RGHT, KC_UP,   KC_PGUP,                            KC_PMNS,    KC_1,   KC_2,   KC_P6,  KC_PEQL, _______,
   //├────────┼────────┼────────┼────────┼────────┼────────┼────────┐        ┌────────┼────────┼────────┼────────┼────────┼────────┼────────┤
-     BL_STEP, KC_LSFT , _______, _______, KC_DOWN, KC_PGDN, KC_BSPC,           KC_ENT, KC_PPLS,    KC_0, KC_COMM,  KC_DOT, KC_PENT, _______,
+      RGB_VAD, KC_LSFT , _______, _______, KC_DOWN, KC_PGDN, KC_BSPC,           KC_ENT, KC_PPLS,    KC_0, KC_COMM,  KC_DOT, KC_PENT, _______,
   //└────────┴────────┴────────┴───┬────┴───┬────┴───┬────┴───┬────┘        └───┬────┴───┬────┴───┬────┴───┬────┴────────┴────────┴────────┘
                                      KC_TRNS, _______, KC_LSFT,                   KC_RSFT, _______, _______
                                 // └────────┴────────┴────────┘                 └────────┴────────┴────────┘
